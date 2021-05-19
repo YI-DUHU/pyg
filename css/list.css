@@ -1,0 +1,163 @@
+.header .sk {
+	position: absolute;
+	left: 186px;
+	top: 40px;
+	width: 71px;
+	height: 33px;
+	border-left: 1px solid #b1191a;
+}
+
+.header .sk img {
+	padding: 3px 15px;
+}
+
+.list_nav {
+	overflow: hidden;
+	height: 46px;
+	border-bottom: 2px solid #b1191a;
+}
+
+.nav_left {
+	float: left;
+	height: 46px;
+	line-height: 46px;
+}
+
+.nav_left ul {
+	margin-left: 20px;
+}
+
+.nav_left ul li {
+	float: left;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #000;
+	font-weight: 700;
+}
+
+.nav_right {
+	float: right;
+	height: 46px;
+	line-height: 50px;
+}
+
+.nav_right ul {
+	margin-right: 60px;
+}
+
+.nav_right ul li {
+	float: left;
+	padding: 0 20px;
+	font-size: 14px;
+	color: #666;
+}
+
+.nav_right ul li:last-child a::after {
+	font-family: 'icomoon';
+	content: '\e91e';
+	margin-left: 2px;
+	margin-top: 4px;
+}
+
+.content_bd ul {
+	width: 1200px;
+	margin-top: 26px;
+}
+
+.content_bd ul li {
+	float: left;
+	width: 290px;
+	height: 460px;
+	margin-right: 12px;
+	margin-bottom: 34px;
+	transition: all 0.3s ease;
+}
+
+.content_bd ul li:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 2px 4px 2px rgba(255, 0, 0, 0.3);
+}
+
+.content_bd ul li a {
+	display: block;
+	width: 290px;
+	height: 460px;
+	border: 2px solid transparent;
+}
+
+.content_bd ul li a:hover {
+	border: 2px solid #b1191a;
+}
+
+.content_bd ul li:nth-child(4n) {
+	width: 290px;
+	margin-right: 0;
+}
+
+.phone {
+	text-align: center;
+}
+
+.price {
+	margin-bottom: 13px;
+	padding-left: 12px;
+	height: 106px;
+	font-size: 14px;
+	color: #666;
+}
+
+.price p{
+	margin-bottom: 5px;
+}
+
+.price span {
+	color: #b1191a;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.sell {
+	font-size: 14px;
+	margin-top: 7px;
+}
+.jindu {
+	display: inline-block;
+	position: relative;
+	margin: 0 12px;
+	width: 108px;
+	height: 12px;
+	border: 1px solid #b1191a;
+	border-radius: 12px;
+	background-color: #fff;
+}
+
+.jindu i {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	margin-left: -1px;
+	margin-top: -1px;
+	width: 90px;
+	height: 12px;
+	border-radius: 12px 0 0 12px;
+	background-color: #ed282e;
+}
+
+
+.sell .remain {
+	font-size: 14px;
+	color: #e12228;
+	font-weight: 400;
+}
+
+.purchase {
+	margin-left: -1px;
+	width: 289px;
+	height: 50px;
+	background-color: #b1191a;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #fff;
+	font-family: \5B8B\4F53";
+}

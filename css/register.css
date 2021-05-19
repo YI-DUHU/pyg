@@ -1,0 +1,158 @@
+/* 版心 */
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	height: 82px;
+	padding-top: 16px;
+	padding-left: 4px;
+	border-bottom: 2px solid #b1191a;
+}
+/* 注册区 */
+.registerarea {
+	margin-top: 22px;
+	height: 600px;
+	border: 1px solid #dfdfdf;
+}
+.registerarea_hd {
+	padding: 0 10px;
+	margin-left: -1px;
+	width: 1200px;
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px solid #ddd;
+	background-color: #ececec;
+}
+
+.registerarea_hd h3 {
+	font-weight: 400;
+	font-size: 18px;
+	color: #333;
+}
+
+.registerarea_hd .login {
+	float: right;
+	font-size: 14px;
+}
+
+.registerarea_hd .login a {
+	color: #c81623;
+}
+.registerarea_bd {
+	margin: 55px auto 0;
+	width: 480px;
+}
+.registerarea_bd ul li {
+	margin-bottom: 18px;
+}
+
+.registerarea_bd label {
+	display: inline-block;
+	width: 88px;
+	text-align: right;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+.right {
+	color: green;
+}
+
+.wrong {
+	color: red;
+}
+.registerarea_bd li:nth-child(1) input,
+.registerarea_bd li:nth-child(2) input,
+.registerarea_bd li:nth-child(3) input,
+.registerarea_bd li:nth-child(4) input,
+.registerarea_bd li:nth-child(5) input,
+.registerarea_bd li:nth-child(7) input
+{
+	margin-right: 5px;
+	padding-left: 5px;
+	width: 240px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	transition: all .2s;
+}
+
+.registerarea_bd li span {
+	font-size: 14px;
+}
+
+.safe {
+	padding-right: 158px;
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	color: #b2b2b2;
+	text-align: right;
+	
+}
+.ruo {
+	display: inline-block;
+	width: 35px;
+	background-color: #de1111;
+	color: #fff;
+	text-align: center;
+}
+.zhong {
+	display: inline-block;
+	width: 35px;
+	background-color: #40b83f;
+	color: #fff;
+	text-align: center;
+}
+.qiang {
+	display: inline-block;
+	width: 35px;
+	background-color: #f79100;
+	color: #fff;
+	text-align: center;
+}
+
+.checkbox {
+	padding-left: 86px;
+	margin-top: 43px;
+	font-size: 12px;
+}
+
+.checkbox input {
+	vertical-align: middle;
+}
+
+.checkbox a {
+	color: #1ba1e6;
+}
+
+button {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 95px;
+	width: 200px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #b4b4b4;
+	transition: all .2s;
+}
+
+/* 底部 */
+.mod_copyright {
+	height: 120px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.mod_copyright a {
+	margin: 0 15px;
+}
+
+.copyright {
+	margin-top: 15px;
+	line-height: 21px;
+}
